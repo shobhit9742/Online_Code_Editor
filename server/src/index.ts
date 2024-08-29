@@ -1,14 +1,22 @@
 import express from "express";
 import cors from "cors";
-
+import { config } from "dotenv";
+import dbConnect from "./lib/dbConnect";
+import compilerRouter from "./routes/compilerRoute";
 const app = express();
+
+config();
+dbConnect();
+
 app.use(express.json());
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.status(200).send("OK");
-});
+// Routes
+app.use("/compiler", compilerRouter);
 
-app.listen(4000, () => {
-  console.log("http://localhost:4000");
+
+const port = process.env.PORT || 5000;
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
 });

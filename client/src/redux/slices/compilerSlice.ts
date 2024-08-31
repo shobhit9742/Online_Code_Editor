@@ -39,8 +39,6 @@ const compilerSlice = createSlice({
         },
 
         updateCodeValue: (state, action: PayloadAction<string>) => {
-            // const { code, language } = action.payload;
-            // state.fullCode[language] = code;
             state.fullCode[state.currentLanguage] = action.payload;
         },
 

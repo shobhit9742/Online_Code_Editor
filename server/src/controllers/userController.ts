@@ -57,7 +57,7 @@ export const signup = async (req: Request, res: Response) => {
 export const login = async (req: Request, res: Response) => {
   const { userId, password }: { userId: string; password: string } = req.body;
   try {
-    let existingUser = undefined;
+    let existingUser;
 
     if (userId.includes("@")) {
       existingUser = await User.findOne({ email: userId });

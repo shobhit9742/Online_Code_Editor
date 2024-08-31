@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import { config } from "dotenv";
 import dbConnect from "./lib/dbConnect";
-import compilerRouter from "./routes/compilerRoute";
+import { compilerRouter } from "./routes/compilerRoute";
 const app = express();
 
 config();
@@ -13,7 +13,6 @@ app.use(cors());
 
 // Routes
 app.use("/compiler", compilerRouter);
-
 
 const port = process.env.PORT || 5000;
 

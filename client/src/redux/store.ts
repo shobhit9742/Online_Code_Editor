@@ -1,11 +1,16 @@
 import { configureStore } from "@reduxjs/toolkit";
-import complierSlice from "./slices/compilerSlice";
+import compilerSlice from "./slices/compilerSlice";
+import { api } from "./slices/api";
+import appSlice from "./slices/appSlice";
 
 export const store = configureStore({
-    reducer: {
-
-        compilerSlice: complierSlice,
-    },
+  reducer: {
+    [api.reducerPath]: api.reducer,
+    compilerSlice,
+    appSlice,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(api.middleware),
 });
 
 export type RootState = ReturnType<typeof store.getState>;

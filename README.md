@@ -71,7 +71,7 @@ To run the Open Code Dev application locally, follow these steps:
 2. Navigate to the Frontend Directory:
 
    ```bash
-   cd open-code-dev/client
+   cd Online_Code_Editor/client
 
 4. Install all dependencies:
 
@@ -88,7 +88,7 @@ To run the Open Code Dev application locally, follow these steps:
 1. Navigate to the Backend Directory:
    
    ```bash
-   cd open-code-dev/server
+   cd Online_Code_Editor/server
 2. Install all dependencies:
 
     ```bash

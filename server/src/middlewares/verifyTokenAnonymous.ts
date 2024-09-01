@@ -10,7 +10,7 @@ export const verifyTokenAnonymous = async (
   res: Response,
   next: NextFunction
 ) => {
-  const token = req.cookies.token;
+  const token = req.cookies?.token;
 
   if (!token) {
     return next();

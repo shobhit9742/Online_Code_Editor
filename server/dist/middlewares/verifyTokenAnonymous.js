@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyTokenAnonymous = void 0;
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const verifyTokenAnonymous = async (req, res, next) => {
-    const token = req.cookies.token;
+    const token = req.cookies?.token;
     if (!token) {
         return next();
     }

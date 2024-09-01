@@ -22,13 +22,17 @@ Open Code Dev is an innovative code editor application designed to provide devel
 ## Screenshots
 
 - **Landing Page**: A welcoming interface that introduces users to the features of Open Code Dev.
+
   ![home](https://github.com/user-attachments/assets/a6e71f13-71fb-4f61-a5ce-eba452eff1c3)
 
 - **Login and Signup Page**: Easy access for users to create an account or log in to start coding.
+
   ![login](https://github.com/user-attachments/assets/fb081b41-c4aa-4571-9273-bebce852ef77)
+
   ![signup](https://github.com/user-attachments/assets/6cf7114a-bccc-485a-9ecc-2a7f777b551b)
 
 - **Editor Page**: A powerful code editor interface where users can write, run, and debug their code.
+
   ![compiler](https://github.com/user-attachments/assets/9e5d12a0-a92b-4d15-8b56-ebdc1e2b7d54)
 
 

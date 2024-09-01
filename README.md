@@ -23,10 +23,6 @@ Open Code Dev is an innovative code editor application designed to provide devel
   
 - **Editor Page**: A powerful code editor interface where users can write, run, and debug their code.
 
-- **Real-Time Collaboration Page**: Allows multiple users to work on the same project simultaneously by sharing code.
-
-- **User Profile Page**: Manage user information and settings.
-
 
 ## Features
 
@@ -48,6 +44,7 @@ Open Code Dev is an innovative code editor application designed to provide devel
 - **Express.js**: A web application framework for Node.js used to build the backend API.
 - **Socket.io**: Enables real-time communication for collaborative features.
 - **MongoDB**: Serves as the database to store user information and project data.
+- **Material-UI**: A React component library that provides pre-styled components for faster development and a consistent look and feel.
 
 
 
@@ -98,6 +95,11 @@ To run the Open Code Dev application locally, follow these steps:
 
    ```bash
    npm start
+
+## Contributors
+[Avani Lodhi](#https://github.com/avanilodhi)
+[Shobhit Gupta](https://github.com/shobhit9742)
+
 
 
 

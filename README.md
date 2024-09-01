@@ -97,8 +97,8 @@ To run the Open Code Dev application locally, follow these steps:
    npm start
 
 ## Contributors
-[Avani Lodhi](#https://github.com/avanilodhi)
-[Shobhit Gupta](https://github.com/shobhit9742)
+- [Avani Lodhi](https://github.com/avanilodhi)
+- [Shobhit Gupta](https://github.com/shobhit9742)
 
 
 

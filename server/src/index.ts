@@ -10,12 +10,20 @@ config();
 dbConnect();
 
 app.use(express.json());
+// app.use(
+//   cors({
+//     credentials: true,
+//     origin: ["http://localhost:5173", process.env.CLIENT_URL!],
+//   })
+// );
 app.use(
   cors({
+    origin: process.env.CLIENT_URL,
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
-    origin: ["http://localhost:5173", process.env.CLIENT_URL!],
   })
 );
+
 // Routes
 app.use("/compiler", compilerRouter);
 app.use("/user", userRouter);

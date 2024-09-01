@@ -1,0 +1,1 @@
+import{j as t}from"./index-D7qIT8zv.js";function n(){return t.jsx("div",{className:"w-full h-[calc(100dvh-60px)]  bg-gray-800 text-white flex justify-center items-center text-2xl font-bold",children:"404 - Page not found"})}export{n as default};

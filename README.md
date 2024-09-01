@@ -9,7 +9,7 @@ Open Code Dev is an innovative code editor application designed to provide devel
 
 ## Deployed Link
 
-[Open Code Dev: Live Demo](#)
+[Open Code Dev: Live Demo](https://online-code-editor-silk.vercel.app/)
 
 ## Video Walkthrough of the Project
 
@@ -66,12 +66,12 @@ To run the Open Code Dev application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/open-code-dev.git
-
+   https://github.com/shobhit9742/Online_Code_Editor.git)
+   
 2. Navigate to the Frontend Directory:
 
    ```bash
-   cd open-code-dev/frontend
+   cd open-code-dev/client
 
 4. Install all dependencies:
 
@@ -88,7 +88,7 @@ To run the Open Code Dev application locally, follow these steps:
 1. Navigate to the Backend Directory:
    
    ```bash
-   cd open-code-dev/backend
+   cd open-code-dev/server
 2. Install all dependencies:
 
     ```bash

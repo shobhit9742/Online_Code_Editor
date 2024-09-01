@@ -11,6 +11,10 @@ Open Code Dev is an innovative code editor application designed to provide devel
 
 [Open Code Dev: Live Demo](https://online-code-editor-silk.vercel.app/)
 
+## Directory Structure
+![2024-09-02 (5)](https://github.com/user-attachments/assets/e2881a68-d00d-4c60-91cf-2b016c6611fd)
+
+
 ## Video Walkthrough of the Project
 
 [Presentation Link](#)

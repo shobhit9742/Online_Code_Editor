@@ -13,7 +13,8 @@ export const verifyTokenAnonymous = async (
   const token = req.cookies?.token;
 
   if (!token) {
-    return next();
+    // return next();
+    return res.status(403).json({ message: "No token provided." });
   }
   jwt.verify(
     token,

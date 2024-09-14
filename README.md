@@ -58,14 +58,11 @@ Open Code Dev is an innovative code editor application designed to provide devel
 
 - **Node.js**: Handles the server-side logic and backend functionality.
 
-
 - **Express.js**: A web application framework for Node.js used to build the backend API.
-
-- **Socket.io**: Enables real-time communication for collaborative features.
 
 - **MongoDB**: Serves as the database to store user information and project data.
 
-- **Material-UI**: A React component library that provides pre-styled components for faster development and a consistent look and feel.
+- **Tailwind-CSS**: Tailwind CSS - Leveraged pre-built utility classes to simplify the styling process while maintaining full design flexibility.
 
 
 

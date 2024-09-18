@@ -9,6 +9,7 @@ const dotenv_1 = require("dotenv");
 const dbConnect_1 = __importDefault(require("./lib/dbConnect"));
 const compilerRoute_1 = require("./routes/compilerRoute");
 const userRoute_1 = require("./routes/userRoute");
+const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const app = (0, express_1.default)();
 (0, dotenv_1.config)();
 (0, dbConnect_1.default)();
@@ -24,6 +25,7 @@ app.use((0, cors_1.default)({
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
 }));
+app.use((0, cookie_parser_1.default)());
 // Routes
 app.use("/compiler", compilerRoute_1.compilerRouter);
 app.use("/user", userRoute_1.userRouter);
